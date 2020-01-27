@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Orion</title>
+</head>
+<body>
+    <div class="task parent">
+        <div class="line1">
+            <div class="doneness">&#x25A1;</div>
+            <div class="name">bevásárlás </div>
+            <div class="deadline">ma</div>
+            <div class="responsible">A</div>
+            <div class="select"></div>
+            <div class="addChild">+</div>
+        </div>
+        <div class="line2">
+            
+            <div class="tags">#jurta #obi</div>
+            <div class="ID">cdgf45</div>
+        </div>
+    </div>
+    <div class="task parent">
+        <div class="line1">
+            <div class="doneness">&#x25A1;</div>
+            <div class="name">bevásárlás </div>
+            <div class="deadline">holnap</div>
+            <div class="responsible">A</div>
+            <div class="select"></div>
+            <div class="addChild">+</div>
+        </div>
+        <div class="line2">            
+            <div class="tags">#jurta #obi</div>
+            <div class="ID">cdgf45</div>
+        </div>
+        
+    </div>
+    <div class="task child">
+        <div class="line1">
+            <div class="doneness">&#x25A1;</div>
+            <div class="name">bevásárlás </div>
+            <div class="deadline">ma 14:00</div>
+            <div class="responsible">A</div>
+            <div class="select"></div>
+            <div class="addChild">+</div>
+        </div>
+        <div class="line2">            
+            <div class="tags">#jurta #obi</div>
+            <div class="ID">cdgf45</div>
+        </div>
+    </div>
+    <div class="task parent">
+        <div class="line1">
+            <div class="doneness">&#x1F51B;</div>
+            <div class="name">bevásárlás </div>
+            <div class="deadline">szerda</div>
+            <div class="responsible">A</div>
+            <div class="select"></div>
+            <div class="addChild">+</div>
+        </div>
+        <div class="line2">            
+            <div class="tags">#jurta #obi</div>
+            <div class="ID">cdgf45</div>
+        </div>
+    </div>
+    <div class="task child">
+        <div class="line1">
+            <div class="doneness">&#x1F5F9;</div>
+            <div class="name">bevásárlás </div>
+            <div class="deadline">&#x1F551</div>
+            <div class="responsible">A</div>
+            <div class="select"></div>
+            <div class="addChild">+</div>
+        </div>
+        <div class="line2 underEdit">
+            <div class="tags">Title: <input name="name" type="text"></div>
+            <div class="tags">Description: <textarea></textarea></div>
+            <div class="tags">Status:
+                <select name="status">
+                    <option value="todo">todo</option>
+                    <option value="doing">doing</option>
+                    <option value="done">done</option>
+                </select>
+            </div>
+            <div class="tags">Deadline <input type="datetime-local"></div>             
+            <div class="tags">Tags: <input name="tag" type="text">#jurta #obi</div>
+            <div class="tags">Responsible</div>
+            <div class="tags">Permissions</div>
+            <div class="ID">cdgf45</div>
+        </div>
+    </div>
+    <div class="task grandchild">
+        <div class="line1">
+            <div class="doneness">&#x1F51B;</div>
+            <div class="name">bevásárlás </div>
+            <div class="deadline"></div>
+            <div class="responsible">A</div>
+            <div class="select"></div>
+            <div class="addChild">+</div>
+        </div>
+        <div class="line2">            
+            <div class="tags">#jurta #obi</div>
+            <div class="ID">cdgf45</div>
+        </div>
+    </div>
+    <div class="addnew">
+        + Add new
+    </div>
+
+</body>
+</html>
